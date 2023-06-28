@@ -252,26 +252,50 @@ a {
 .github {
   /* position: absolute; */
   top: 73%;
-  left: 37%;
+  left: 20%;
 }
 
 .linkedin {
   /* position: absolute; */
   top: 73%;
-  left: 26%;
+  left: 8%;
 }
 
 .email {
   /* position: absolute; */
   top: 73%;
-  left: 15%;
+  left: 32%;
 }
+
+.youtube {
+  top: 73%;
+  left: 44%;
+}
+
+
+#gh-link:hover, #mail-link:hover, #li-link:hover, #yt-link:hover, .project-header:hover {
+  margin: 0 -0.4em;
+  padding: 0.1em 0.4em;
+  border-radius: 0.8em 0.3em;
+  background: transparent;
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 225, 0, 0.1),
+    rgba(255, 225, 0, 0.7) 4%,
+    rgba(255, 225, 0, 0.3)
+  );
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+
+
+
 
 .projects-title {
   position: absolute;
-  top: 7%;
-  right: 1%;
-  transform:rotate(10deg);
+  top: 80px;
+  right: 50px;
+  transform:rotate(8deg);
 }
 
 .projects-part {
@@ -280,13 +304,14 @@ a {
 
 .photobuddies {
   position: absolute;
-  bottom: -40%;
-  right: 15%;
+  bottom: -538px;
+  right: 60px;
 }
 
 .simpool {
-  margin-left: 60vw;
-  margin-top: 10vh;
+  position: absolute;
+  top: 53px;
+  right: 15%;
 }
 
 :root {
@@ -323,7 +348,7 @@ a {
     ),
     var(--paper-color);
   width: 350px;
-  height: 280px;
+  height: 240px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -370,8 +395,20 @@ a {
 }
 
 .project-desc img {
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
+}
+
+.project-header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.project-desc p {
+  padding: 10px;
+  margin-top: 0;
+
 }
 
 .tape-section {
