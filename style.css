@@ -34,9 +34,6 @@ h1, h2, p, a {
   text-decoration: none;
 }
 
-
-
-
 .poloroid {
   display:inline-block;
   position:absolute;
@@ -97,7 +94,6 @@ h1, h2, p, a {
   animation: develop-picture 1.5s ease-in paused;
 }
 
-
 @keyframes develop-picture {
 0%{
 
@@ -111,7 +107,6 @@ h1, h2, p, a {
 100% {
     opacity:1;
   }
-
 }
 
 .topics {
@@ -202,6 +197,7 @@ a {
   top: -16px;
   z-index: 1;
 }
+
 .pin:after {
   background-color: #A31;
   background-image: radial-gradient(25% 25%, circle, hsla(0,0%,100%,.3), hsla(0,0%,0%,.3));
@@ -217,23 +213,21 @@ a {
   top: -10px;
   width: 12px;
 }
+
 .pin:before {
   background-color: hsla(0,0%,0%,0.1);
   box-shadow: 0 0 .25em hsla(0,0%,0%,.1);
   content: '';
-
   height: 24px;
   width: 2px;
   left: 0;
   position: absolute;
   top: 8px;
-
   transform: rotate(57.5deg);
   -moz-transform: rotate(57.5deg);
   -webkit-transform: rotate(57.5deg);
   -o-transform: rotate(57.5deg);
   -ms-transform: rotate(57.5deg);
-
   transform-origin: 50% 100%;
   -moz-transform-origin: 50% 100%;
   -webkit-transform-origin: 50% 100%;
@@ -270,7 +264,6 @@ a {
   left: 44%;
 }
 
-
 #gh-link:hover, #mail-link:hover, #li-link:hover, #yt-link:hover, .project-header:hover {
   margin: 0 -0.4em;
   padding: 0.1em 0.4em;
@@ -285,9 +278,6 @@ a {
   -webkit-box-decoration-break: clone;
   box-decoration-break: clone;
 }
-
-
-
 
 .projects-title {
   position: absolute;
