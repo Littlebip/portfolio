@@ -24,7 +24,7 @@ body {
   height: 150px;
   border-radius: 50%;
   position: absolute;
-  top: 187px;
+  top: 188px;
   left: 10%;
   box-shadow: 1px 2px 1px rgba(150,90,90,0.3);
   border: 3px solid rgba(255,250,250,1);
@@ -90,16 +90,12 @@ body {
   background-color: rgba(70,0,110,0.7);
 }
 
-.simpool-project .project-content {
-  background-color: rgba(255,248,220,1);
-}
-
 .project-content p {
   text-align: justify;
   padding: 1vh 5vw 3vh;
 }
 
-.photobuddies-project, .on-mange-koi-project {
+.photobuddies-project, .on-mange-koi-project, .simpool-project {
   color: rgba(255,248,220,1);
 }
 
@@ -117,7 +113,17 @@ body {
   height: 150px;
 }
 
-.display {
-  width: 100px;
-  height: 100px;
+.sample {
+  width: 100%;
+}
+
+#on-mange-koi-title {
+  margin-top: 5vh;
+}
+
+.placeholder {
+  width:100%;
+  height:100px;
+  object-fit: cover;
+  margin-bottom: 50px;
 }
