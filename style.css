@@ -37,6 +37,10 @@
     margin-left: 3vw;
   }
 
+  #jungle-logo {
+    margin: 1em 0 0 4em;
+  }
+
   .project-content p {
     padding: 1vh 3vw 0vh;
   }
@@ -76,6 +80,10 @@
 
   .project-header img {
     margin-left: 1vw;
+  }
+
+  #jungle-logo {
+    margin: 1em 0 0 3em;
   }
 
   .project-links {
@@ -202,6 +210,11 @@ body {
 .project-header img {
   width: 150px;
   height: 150px;
+}
+
+#jungle-logo {
+  width: 100px;
+  height: 100px;
 }
 
 .sample {
